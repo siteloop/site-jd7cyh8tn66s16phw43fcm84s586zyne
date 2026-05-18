@@ -9,6 +9,9 @@ export default function Home() {
       <p className="text-lg text-neutral-600 max-w-xl text-center">
         {content.subheading}
       </p>
+      <p className="text-lg text-neutral-600 max-w-xl text-center mt-4">
+        {content.tagline}
+      </p>
     </main>
   );
 }
